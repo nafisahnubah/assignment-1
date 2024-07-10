@@ -76,6 +76,7 @@ body{
     border-radius: 8px;
     background-color: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
+    cursor: pointer;
 }
 
 /* main styles */
@@ -128,6 +129,15 @@ body{
 
 .inspo{
     margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.youtube{
+    margin: 48px 0px 140px;
+    border-radius: 16px;
+    padding: 20px;
 }
 
 .target-boxes{
@@ -162,6 +172,7 @@ body{
     line-height: 19px;
     text-align: left;
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .support{
@@ -212,6 +223,7 @@ body{
     padding: 17px 20px 17px 20px;
     margin: 0px 16px;
     border: none;
+    cursor: pointer;
 }
 
 /* footer styles */
@@ -234,4 +246,5 @@ footer p{
 
 footer .icon{
     padding-left: 24px;
+    cursor: pointer;
 }
