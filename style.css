@@ -1,3 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Azeret Mono;
+}
+
 body{
     margin: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* common styles */
+.h1-primary{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+
+.p-primary{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+/* hero styles */
+
+.hero{
+    background-image: url("assets/Hero-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    margin: 26px 221px 44px;
+    width: 998px;
+    height: 582px;
+}
+
+.hero-h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 24px 0px;
+}
+
+.hero-p{
+    margin: 24px 73px 32px 73px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.hero-btn{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+}
+
+/* main styles */
+
+.main{
+    margin: 98px 150px;
+}
+
+.why-content{
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-box{
+    padding: 48px;
+    background-color: white;
+    max-width: 946px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.h1-secondary{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+
+.p-secondary{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin: 16px 0px 32px;
+}
+
+.btn-secondary{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.why-img{
+    margin: 0px 32px;
+}
+
+.inspo{
+    margin-top: 88px;
 }
