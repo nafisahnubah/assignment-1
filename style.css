@@ -129,3 +129,39 @@ body{
 .inspo{
     margin-top: 88px;
 }
+
+.target-boxes{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.target-box{
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 364px;
+}
+
+.color1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.color2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.color3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.target-link a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
